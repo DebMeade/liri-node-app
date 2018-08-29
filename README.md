@@ -11,4 +11,4 @@ There are also defaults set up in case no information is added following "spotif
 
 One additional command is: node liri.js do-what-it-says which reads from the random.txt file which returns data on the song titled I Want It That Way.
 
-Every search made on Liri will show in the terminal as well as in the log.txt file
+Every search made on Liri will show in the terminal/bash window as well as in the log.txt file
