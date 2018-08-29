@@ -1,0 +1,45 @@
+App takes a command and perfroms one of several tasks
+// concert-this
+    Search for an artist and get concert data
+// spotify-this-song
+    Search for a song and get song data
+// movie-this
+    Search for a movie and get movie data
+// do-what-it-says
+    Read random.txt
+
+Read the command line input
+    command = process.argv[2]
+    option = process.argv[3]
+    if command = concert-this 
+        look up artist
+    if command = spotify-this-song
+        look up song
+    if command = movie-this
+        look up movie
+    if command = do-what-it-says    
+        read random.txt and look up song
+
+    switch(command) {
+        case concert-this:
+            concert-search
+        break
+
+        case spotify-this-song:
+            song-search
+        break
+        
+        case movie-this:
+            movie-search
+        break
+        
+        case do-what-it-says:
+            search-song
+        
+    }
+
+    Spotify function
+    1. takes song name as an argument 
+    2. use the API keys to make a request to the spotify API
+    3. take the returned data pull requested information out
+    4. display requested information to user 
